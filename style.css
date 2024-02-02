@@ -1,0 +1,33 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 25px;
+    
+
+}
+h1{
+    text-align: center;
+}
+
+.verb-item {
+    text-transform: uppercase;
+    width: calc(33.33% - 10px); /* 33.33% para tres columnas y resta el margen derecho */
+    margin-right: 10px;
+    display: inline-block;
+    box-sizing: border-box; /* Para incluir el margen en el cálculo del ancho */
+}
+
+.verb-details {
+    text-transform: uppercase;
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.verb-meaning{
+    text-transform: uppercase;
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+    color: #5648f7;
+    display: inline-block;
+    box-sizing: border-box;
+}
