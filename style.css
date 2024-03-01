@@ -28,6 +28,14 @@ h1 {
     padding-bottom: 15px;
     text-align: center;
 }
+
+.logo-nav{
+    width: 85px;
+    height: 85px;
+    mix-blend-mode: multiply;
+    filter: brightness(1.5);
+}
+
 .p-logo{
     font-size: 2rem;
     color: var(--blue-chill-200);
@@ -40,7 +48,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 150px;
+    height: 100px;
     
 }
 
@@ -63,7 +71,7 @@ h1 {
 }
 
 .verb-item {
-    text-transform: uppercase;
+    
     width: calc(33.33% - 10px);
     /* 33.33% para tres columnas y resta el margen derecho */
     margin-right: 10px;
@@ -73,7 +81,7 @@ h1 {
 }
 
 .verb-details {
-    text-transform: uppercase;
+    
     width: calc(33.33% - 10px);
     margin-right: 10px;
     display: inline-block;
