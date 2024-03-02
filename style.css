@@ -13,12 +13,13 @@
     --blue-chill-900: #2d464c;
     --blue-chill-950: #1a2c32;
 
+   /* border: 1px solid red;*/
 
 }
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    
+    background-image: linear-gradient(to top, var(--blue-chill-600), var(--blue-chill-900));    
 
 
 }
@@ -27,6 +28,7 @@ h1 {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
+    color: var(--blue-chill-200);
 }
 
 .logo-nav{
@@ -77,6 +79,7 @@ h1 {
     margin-right: 10px;
     display: inline-block;
     box-sizing: border-box;
+    color: var(--blue-chill-200);
     /* Para incluir el margen en el cálculo del ancho */
 }
 
@@ -84,6 +87,7 @@ h1 {
     
     width: calc(33.33% - 10px);
     margin-right: 10px;
+    color: var(--blue-chill-200);
     display: inline-block;
     box-sizing: border-box;
 }

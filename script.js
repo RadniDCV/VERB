@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const verbElement = document.createElement("div");
                 verbElement.classList.add("verb-item");
                 
-                const strongElement = document.createElement("strong");
+                const strongElement = document.createElement("div");
                 strongElement.textContent = verb.verb;
                 verbElement.appendChild(strongElement);
                 
